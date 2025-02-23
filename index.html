@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UX Case Study - Health Companion Super App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>UX Case Study: Health Companion Super App</h1>
+        <p>Improving medication tracking and appointment management for individuals with chronic health conditions.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#user-research">User Research</a></li>
+            <li><a href="#personas">User Personas</a></li>
+            <li><a href="#user-journey">User Journey</a></li>
+            <li><a href="#wireframing">Wireframes</a></li>
+            <li><a href="#prototype">Prototype</a></li>
+            <li><a href="#usability-testing">Usability Testing</a></li>
+            <li><a href="#reflection">Reflection</a></li>
+        </ul>
+    </nav>
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+        
+        <div class="subsection">
+            <h3>Problem Statement</h3>
+            <p>
+                Managing chronic health conditions is a daily challenge for millions of individuals worldwide. Patients often struggle with remembering to take their medications, scheduling and keeping track of doctor appointments, and maintaining communication with healthcare providers. These challenges can lead to <strong>missed doses, delayed treatments, and poor health outcomes</strong>.
+            </p>
+            <p>
+                Traditional methods such as <strong>paper logs, phone reminders, and fragmented digital solutions</strong> are often ineffective, leading to gaps in healthcare management. Many patients, particularly elderly users, may also face <strong>technological barriers</strong> that make it difficult to adopt digital solutions effectively.
+            </p>
+            <p>
+                This case study focuses on designing the <strong>Health Companion Super App</strong>, a <strong>mobile application</strong> that provides an all-in-one solution for individuals managing chronic conditions. The app will offer:
+            </p>
+            <ul>
+                <li>Medication reminders with customizable notification options.</li>
+                <li>Doctor appointment scheduling and management.</li>
+                <li>A centralized platform for tracking previous, upcoming, and canceled appointments.</li>
+                <li>A direct chat feature for seamless communication with healthcare professionals.</li>
+            </ul>
+            <p>
+                By leveraging <strong>user-centered design principles</strong>, this study ensures the app is <strong>intuitive, accessible, and practical</strong>, catering to users with varying levels of technological proficiency.
+            </p>
+        </div>
+    
+        <div class="subsection">
+            <h3>Goals of the Case Study</h3>
+            <p>The primary objective of this case study is to <strong>design a user experience (UX) strategy</strong> for the Health Companion Super App. This includes:</p>
+            <ul>
+                <li><strong>Conducting user research</strong> to understand the needs, pain points, and preferences of individuals managing chronic conditions.</li>
+                <li><strong>Developing user personas</strong> based on research findings to guide the design process.</li>
+                <li><strong>Mapping the user journey</strong> to identify key touchpoints, emotions, and friction points in the app's workflow.</li>
+                <li><strong>Creating low-fidelity wireframes</strong> to visualize the core features of the app.</li>
+                <li><strong>Developing an interactive prototype</strong> in Figma that demonstrates user interactions and workflows.</li>
+                <li><strong>Planning and executing usability testing</strong> to validate the effectiveness of the design.</li>
+                <li><strong>Reflecting on the UX design process</strong>, identifying challenges, and iterating based on feedback.</li>
+            </ul>
+            <p>
+                The final deliverable will be a structured UX/UI design case study that documents the entire design process, including <strong>user research, persona development, user journey mapping, wireframing, prototyping, and usability testing</strong>.
+            </p>
+        </div>
+    
+        <div class="subsection">
+            <h3>App Features Overview</h3>
+            <p>The Health Companion Super App will include the following core features:</p>
+            <ul>
+                <li><strong>Medication Reminders:</strong> Users can set up customized medication alerts and track adherence.</li>
+                <li><strong>Doctor Appointment Scheduler:</strong> Users can book, reschedule, and track their medical appointments.</li>
+                <li><strong>Appointment Management:</strong> Users can view upcoming, past, and canceled appointments.</li>
+                <li><strong>Notifications System:</strong> Customizable alerts for medication intake and appointment reminders.</li>
+                <li><strong>Online Chat with Healthcare Professionals:</strong> Enables direct communication with doctors for quick inquiries.</li>
+            </ul>
+            <p>
+                This case study follows a <strong>user-centric design approach</strong> to ensure the app is not only functional but also meets the needs of different user groups, including elderly users and busy professionals.
+            </p>
+        </div>
+    </section>
+    
+
+    <section id="user-research">
+        <h2>User Research & Persona Creation</h2>
+    
+        <div class="subsection">
+            <h3>User Research</h3>
+            <p>To ensure that the <strong>Health Companion Super App</strong> meets the real needs of users, a comprehensive <strong>user research study</strong> was conducted. The goal was to understand:</p>
+            <ul>
+                <li>The challenges individuals with chronic health conditions face when managing their medication and doctor appointments.</li>
+                <li>The preferred features and functionalities that would improve user experience.</li>
+                <li>The types of notifications and reminders that would be most effective.</li>
+                <li>Concerns about privacy, usability, and app adoption among different user groups.</li>
+            </ul>
+        </div>
+    
+        <div class="subsection">
+            <h3>Research Methods</h3>
+            <p>The research was conducted using the following methods:</p>
+            <ul>
+                <li><strong>Online Survey:</strong> A Google Forms survey was created to collect quantitative data from users. The survey focused on:
+                    <ul>
+                        <li>Medication tracking habits.</li>
+                        <li>Appointment scheduling challenges.</li>
+                        <li>Preferred notification methods (SMS, app push notifications, emails).</li>
+                        <li>Concerns about usability and privacy.</li>
+                    </ul>
+                </li>
+                <li><strong>Secondary Research:</strong> Research was conducted on existing mobile health apps to identify <strong>common pain points and best practices</strong>.</li>
+                <li><strong>User Interviews:</strong> A few individuals managing chronic conditions were interviewed to gain deeper qualitative insights into their struggles and preferences.</li>
+            </ul>
+        </div>
+    
+        <div class="subsection">
+            <h3>Key Findings</h3>
+            <p>The research revealed the following key insights:</p>
+            <ul>
+                <li>Many users struggle with <strong>forgetting medication intake</strong>, leading to inconsistent adherence.</li>
+                <li>Users prefer a <strong>simple and non-intrusive</strong> reminder system that does not disrupt their daily routine.</li>
+                <li>Some elderly users are <strong>unfamiliar with mobile apps</strong>, requiring a <strong>very simple and intuitive interface</strong>.</li>
+                <li>Privacy concerns influence the willingness of users to <strong>link their app with healthcare providers</strong>.</li>
+                <li>Busy professionals prefer <strong>minimal notifications</strong> and an <strong>automated system</strong> to track their health data.</li>
+            </ul>
+        </div>
+    </section>
+
+    
+
+    <section id="personas">
+        <h2>User Personas</h2>
+        
+        <div class="persona">
+            <h3>Margaret Lewis - Elderly User with Diabetes</h3>
+            <img src="persona1.png" alt="Margaret Lewis Persona">
+            <p><strong>Age Group:</strong> 55+</p>
+            <p><strong>Challenges:</strong> Forgetting medication, difficulty scheduling appointments.</p>
+            <p><strong>Preferred Notifications:</strong> SMS reminders.</p>
+        </div>
+
+        <div class="persona">
+            <h3>Daniel Carter - Busy Professional with Hypertension</h3>
+            <img src="persona2.png" alt="Daniel Carter Persona">
+            <p><strong>Age Group:</strong> 35-44</p>
+            <p><strong>Challenges:</strong> Too many notifications, scheduling conflicts.</p>
+            <p><strong>Preferred Notifications:</strong> App push notifications.</p>
+        </div>
+    </section>
+    <section id="user-journey">
+        <h2>User Journey Mapping</h2>
+    
+        <div class="subsection">
+            <h3>Overview of User Journey Mapping</h3>
+            <p>
+                User journey mapping is a crucial process in UX design that visualizes the interactions users have with the application over time. It helps identify pain points, motivations, and areas for improvement by breaking down the experience into structured phases.
+            </p>
+            <p>
+                For this case study, two detailed user journey maps were created for our primary personas:
+            </p>
+            <ul>
+                <li><strong>Margaret Lewis (Elderly User with Diabetes)</strong> – A senior citizen who needs a simple, accessible solution to track her medications and manage doctor appointments.</li>
+                <li><strong>Daniel Carter (Busy Professional with Hypertension)</strong> – A working professional who requires a seamless, non-intrusive way to manage his health while balancing a demanding work schedule.</li>
+            </ul>
+        </div>
+    
+        <div class="subsection">
+            <h3>User Journey Map for Margaret Lewis</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Stage</th>
+                        <th>User Actions</th>
+                        <th>Pain Points</th>
+                        <th>Opportunities for Improvement</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Awareness</strong></td>
+                        <td>Doctor recommends an app for managing medications and appointments.</td>
+                        <td>Hesitant about using technology; prefers traditional paper-based tracking.</td>
+                        <td>Highlight ease of use and accessibility features in marketing materials.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Onboarding</strong></td>
+                        <td>Downloads app, attempts setup.</td>
+                        <td>Overwhelmed by setup; struggles with small text.</td>
+                        <td>Provide a step-by-step tutorial with a voice-assisted option.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Daily Use</strong></td>
+                        <td>Uses SMS reminders to take medications.</td>
+                        <td>Sometimes forgets to open the app.</td>
+                        <td>Enable voice-based reminders and one-tap logging.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Problem Encountered</strong></td>
+                        <td>Wants to reschedule an appointment.</td>
+                        <td>Struggles to find the option in the menu.</td>
+                        <td>Improve navigation and provide a help section.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Resolution</strong></td>
+                        <td>Receives guidance from a caregiver, learns how to reschedule.</td>
+                        <td>Still prefers assistance but appreciates the app's usefulness.</td>
+                        <td>Introduce an interactive chatbot and video tutorials.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    
+        <div class="subsection">
+            <h3>User Journey Map for Daniel Carter</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Stage</th>
+                        <th>User Actions</th>
+                        <th>Pain Points</th>
+                        <th>Opportunities for Improvement</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Awareness</strong></td>
+                        <td>Searches online for an app to manage medication.</td>
+                        <td>Has used health apps before but finds them intrusive.</td>
+                        <td>Market the app as a minimalist solution with adaptive notifications.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Onboarding</strong></td>
+                        <td>Sets up medication reminders, syncs with smartwatch.</td>
+                        <td>Prefers minimal setup and fast import of health data.</td>
+                        <td>Allow data import from other health apps.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Daily Use</strong></td>
+                        <td>Uses push notifications for medication tracking.</td>
+                        <td>Wants a non-intrusive app that doesn’t disrupt work.</td>
+                        <td>Implement smart reminders that adjust based on user behavior.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Problem Encountered</strong></td>
+                        <td>Receives too many notifications.</td>
+                        <td>Finds default notifications overwhelming.</td>
+                        <td>Introduce customizable notification settings.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Resolution</strong></td>
+                        <td>Customizes notifications and finds the app more useful.</td>
+                        <td>Wants further automation in tracking medication adherence.</td>
+                        <td>Implement AI-powered scheduling and priority notifications.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    
+    
+    <section id="wireframing">
+        <h2>Wireframing & Prototype Design</h2>
+    
+        <div class="subsection">
+            <h3>Overview of Wireframing</h3>
+            <p>
+                Wireframing is an essential step in UX/UI design that allows designers to visualize the layout and structure of an application before implementing detailed designs. 
+                It serves as a blueprint, focusing on <strong>functionality, layout, and user flow</strong> without distractions like colors, fonts, or images.
+            </p>
+            <p>
+                For this project, <strong>low-fidelity wireframes</strong> were created to outline the core features of the <strong>Health Companion Super App</strong>, including:
+            </p>
+            <ul>
+                <li><strong>Home Screen:</strong> Displays an overview of medication schedules, upcoming appointments, and recent notifications.</li>
+                <li><strong>Medication Reminder Screen:</strong> Allows users to view, edit, and log their medication intake.</li>
+                <li><strong>Appointment Scheduling Screen:</strong> Enables users to book, reschedule, and view past and upcoming doctor appointments.</li>
+                <li><strong>Notifications Screen:</strong> Displays medication and appointment reminders.</li>
+                <li><strong>Chat Feature:</strong> Provides direct messaging with healthcare professionals.</li>
+            </ul>
+            <p>
+                These wireframes help refine the <strong>user experience</strong> by ensuring that navigation is intuitive and that the most important functionalities are <strong>easily accessible</strong>.
+            </p>
+        </div>
+    
+        <div class="subsection">
+            <h3>Low-Fidelity Wireframes</h3>
+            <p>The following wireframes represent the <strong>initial concept</strong> for the app's interface. These are <strong>simple, grayscale sketches</strong> that focus on layout and interaction flow.</p>
+    
+            <div class="wireframe-container">
+                <img src="wAuth.png" alt="Authentication Screen">
+                <p class="caption">Authentication Screen Wireframe</p>
+            </div>
+    
+            <div class="wireframe-container">
+                <img src="wOnboarding.png" alt="Onboarding Screen">
+                <p class="caption">Onboarding Screen Wireframe</p>
+            </div>
+    
+            <div class="wireframe-container">
+                <img src="wFeature1.png" alt="Feature - Medication Tracking">
+                <p class="caption">Feature Wireframe </p>
+            </div>
+    
+            <div class="wireframe-container">
+                <img src="wFeature2.png" alt="Feature - Appointment Scheduling">
+                <p class="caption">Feature Wireframe </p>
+            </div>
+    
+            <div class="wireframe-container">
+                <img src="wSettings.png" alt="Settings Screen">
+                <p class="caption">Settings Screen Wireframe</p>
+            </div>
+        </div>
+        <div class="subsection">
+            <h3>Prototype Development</h3>
+            <p>
+                After finalizing the wireframes, the next step was to create a <strong>high-fidelity interactive prototype</strong> using <strong>Figma</strong>. This prototype incorporates:
+            </p>
+            <ul>
+                <li>A clean and intuitive user interface.</li>
+                <li>Interactive elements that simulate real app functionality.</li>
+                <li>Smooth navigation between screens to ensure a seamless user experience.</li>
+                <li>Accessible design principles to accommodate both elderly users and working professionals.</li>
+            </ul>
+            <p>
+                The Figma prototype allows users to interact with the core features of the application, test usability, and identify any areas for improvement before development begins.
+            </p>
+        </div>
+    
+        <div class="subsection">
+            <h3>Figma Prototype Link</h3>
+            <p>A fully interactive prototype has been developed in Figma. Users can navigate through the different screens to experience the <strong>main user flows</strong> of the app.</p>
+            <p><a href="https://www.figma.com/design/I0rnk0CUjrGhmAb85roYeR/soen357?node-id=1-1477&t=SEsmaZG0TXcZJliA-0" 
+                  target="_blank" class="button-link">View Figma Prototype</a></p>
+        
+            <div class="figma-container">
+                <img src="auth.png" alt="Authentication Screen">
+                <p class="caption">Authentication Screen</p>
+            </div>
+        
+            <div class="figma-container">
+                <img src="onboarding.png" alt="Onboarding Screen">
+                <p class="caption">Onboarding Screen</p>
+            </div>
+        
+            <div class="figma-container">
+                <img src="features.png" alt="Main Features">
+                <p class="caption">Main Features</p>
+            </div>
+        
+            <div class="figma-container">
+                <img src="settings.png" alt="Settings Screen">
+                <p class="caption">Settings Screen</p>
+            </div>
+        </div>
+        
+        <div class="subsection">
+            <h3>Key Improvements Based on Wireframing Feedback</h3>
+            <p>Following usability feedback on the wireframes, several design improvements were made:</p>
+            <ul>
+                <li><strong>Enhanced Navigation:</strong> The navigation bar was adjusted to ensure quick access to medication reminders and appointments.</li>
+                <li><strong>Simplified Medication Logging:</strong> A <strong>one-tap confirmation button</strong> was added for users to log medication intake without unnecessary steps.</li>
+                <li><strong>Clearer Appointment Scheduling Flow:</strong> The process for booking, rescheduling, and canceling appointments was redesigned for clarity.</li>
+                <li><strong>Optimized Notifications:</strong> Users can now customize notification preferences to avoid notification overload.</li>
+            </ul>
+            <p>
+                By iterating on the design based on feedback, we ensured that the final prototype provides an <strong>efficient and user-friendly experience</strong>.
+            </p>
+        </div>
+    </section>
+    
+    <section id="usability-testing">
+        <h2>Usability Testing</h2>
+    
+        <div class="subsection">
+            <h3>Overview of Usability Testing</h3>
+            <p>
+                Usability testing is a critical phase in UX design that evaluates how real users interact with a product. The purpose of usability testing is to identify 
+                <strong>usability issues, measure task success rates</strong>, and gather feedback for iterative improvements.
+            </p>
+            <p>
+                For this project, usability testing was conducted to ensure that the <strong>Health Companion Super App</strong> meets user expectations in terms of 
+                <strong>ease of use, efficiency, and accessibility</strong>. The primary objectives were:
+            </p>
+            <ul>
+                <li>To assess how easily users can navigate through the app.</li>
+                <li>To evaluate the effectiveness of medication reminders and appointment scheduling.</li>
+                <li>To determine whether users encounter any difficulties in using the chat feature.</li>
+                <li>To gather qualitative feedback on the overall user experience.</li>
+            </ul>
+        </div>
+    
+        <div class="subsection">
+            <h3>Usability Testing Plan</h3>
+            <p><strong>Testing Methodology:</strong> The usability testing was conducted using a combination of <strong>moderated in-person testing</strong> and 
+            <strong>remote user testing</strong> via screen-sharing. Participants were asked to complete a set of predefined tasks while their interactions and challenges were observed.</p>
+    
+            <p><strong>Participants:</strong> Five participants were selected to represent the two primary user personas:</p>
+            <ul>
+                <li>Two elderly users who need assistance managing medications and doctor appointments.</li>
+                <li>Three working professionals who require a non-intrusive way to track their health.</li>
+            </ul>
+    
+            <p><strong>Testing Environment:</strong> The test was conducted using the <strong>Figma prototype</strong>, allowing users to interact with clickable elements that simulate real app functionality.</p>
+        </div>
+    
+        <div class="subsection">
+            <h3>Usability Testing Tasks</h3>
+            <p>Participants were asked to complete the following key tasks:</p>
+            <ul>
+                <li><strong>Task 1:</strong> Set up a medication reminder and adjust its frequency.</li>
+                <li><strong>Task 2:</strong> Schedule a doctor's appointment using the appointment scheduler.</li>
+                <li><strong>Task 3:</strong> Check upcoming and past appointments.</li>
+                <li><strong>Task 4:</strong> Customize notification preferences to adjust reminder frequency.</li>
+                <li><strong>Task 5:</strong> Use the online chat feature to communicate with a healthcare professional.</li>
+            </ul>
+        </div>
+    
+        <div class="subsection">
+            <h3>Usability Testing Findings</h3>
+            <p>The findings from usability testing highlighted several insights:</p>
+            <ul>
+                <li><strong>Ease of Use:</strong> Most participants found the app intuitive, particularly the appointment scheduling feature.</li>
+                <li><strong>Navigation Challenges:</strong> Elderly participants initially struggled with the menu layout but improved with guidance.</li>
+                <li><strong>Medication Reminder Efficiency:</strong> Users appreciated the one-tap logging system for medications.</li>
+                <li><strong>Customization Issues:</strong> Some users requested more flexible notification settings, such as the ability to silence reminders during specific times.</li>
+                <li><strong>Chat Feature Feedback:</strong> Participants expected faster response times and clearer indicators of message status.</li>
+            </ul>
+        </div>
+    
+        <div class="subsection">
+            <h3>Changes Implemented Based on Feedback</h3>
+            <p>Based on the usability testing feedback, the following changes were incorporated into the prototype:</p>
+            <ul>
+                <li><strong>Enhanced Navigation:</strong> Improved menu clarity with larger icons and better grouping of features.</li>
+                <li><strong>More Flexible Notifications:</strong> Added an option for users to schedule quiet hours during which notifications are muted.</li>
+                <li><strong>Chat Feature Improvements:</strong> Introduced a <strong>message status indicator</strong> to show when a message has been sent and read.</li>
+                <li><strong>Onboarding Adjustments:</strong> Added an optional guided tutorial for first-time users to explain key app features.</li>
+            </ul>
+        </div>
+    
+        <div class="subsection">
+            <h3>Conclusion of Usability Testing</h3>
+            <p>
+                The usability testing process was instrumental in refining the <strong>Health Companion Super App</strong>. By observing real users interact with the prototype, key usability challenges were identified and addressed before development. 
+                The changes implemented based on user feedback significantly improved the overall <strong>user experience, accessibility, and navigation</strong> of the application.
+            </p>
+        </div>
+    </section>
+    
+
+    <section id="reflection">
+        <h2>Reflection</h2>
+    
+        <div class="subsection">
+            <h3>Lessons Learned from the UX Design Process</h3>
+            <p>
+                The UX design process for the <strong>Health Companion Super App</strong> was an iterative and insightful experience. This case study demonstrated the importance of 
+                <strong>user-centered design</strong>, ensuring that the application meets the needs of its target audience. The following key lessons were learned throughout the development of wireframes, prototypes, and usability testing:
+            </p>
+            <ul>
+                <li><strong>User Research is Essential:</strong> The survey responses and user personas helped shape the design decisions, ensuring that the app catered to real-world challenges faced by users with chronic conditions.</li>
+                <li><strong>Simplicity Enhances Usability:</strong> Elderly users required a <strong>clear, minimalistic interface</strong> with easy navigation and larger text sizes. This influenced our design choices, such as adding a <strong>voice-guided tutorial</strong> and one-tap interactions.</li>
+                <li><strong>Customization Improves User Satisfaction:</strong> Busy professionals valued the ability to <strong>adjust notification settings</strong>, demonstrating that flexibility in app preferences is a crucial factor in user engagement.</li>
+                <li><strong>Iterative Testing Drives Improvement:</strong> The usability tests identified <strong>navigation difficulties, unclear chat functionalities</strong>, and <strong>notification overload</strong>, leading to refined solutions that improved the overall user experience.</li>
+            </ul>
+        </div>
+    
+        <div class="subsection">
+            <h3>Challenges Faced and How They Were Overcome</h3>
+            <p>Throughout the project, several challenges were encountered, requiring creative problem-solving to address them effectively.</p>
+            <ul>
+                <li><strong>Balancing Simplicity and Functionality:</strong> Ensuring that the app remained intuitive for elderly users while providing sufficient features for tech-savvy professionals was a challenge. The solution involved creating <strong>progressive disclosure</strong>, where advanced settings are available but do not clutter the interface for first-time users.</li>
+                <li><strong>Optimizing Notifications:</strong> Initial feedback indicated that some users found notifications excessive, while others needed <strong>more frequent reminders</strong>. A solution was implemented by introducing <strong>custom notification preferences</strong>, including silent hours and adjustable reminder frequencies.</li>
+                <li><strong>Ensuring Accessibility:</strong> Some elderly users struggled with navigating the prototype due to small text and complex layouts. This issue was resolved by integrating <strong>larger fonts, high-contrast themes</strong>, and <strong>voice-assisted guidance</strong> in the final design iteration.</li>
+                <li><strong>Managing User Expectations for Chat Functionality:</strong> Some users expected real-time responses from healthcare professionals, which was beyond the scope of the app’s initial features. To clarify expectations, a <strong>message status indicator</strong> was introduced, showing whether a message had been sent, received, or read.</li>
+            </ul>
+        </div>
+    
+        <div class="subsection">
+            <h3>Impact of UX Design on the Final Prototype</h3>
+            <p>Applying UX design principles significantly influenced the final prototype, resulting in an application that is:</p>
+            <ul>
+                <li><strong>More Accessible:</strong> The app incorporates features like <strong>voice-based reminders, a simple UI</strong>, and <strong>adjustable text sizes</strong>, ensuring that elderly users can navigate it with ease.</li>
+                <li><strong>Highly Customizable:</strong> Users can modify <strong>notifications, reminders, and scheduling settings</strong> to fit their daily routines.</li>
+                <li><strong>Intuitive and Efficient:</strong> The streamlined navigation, interactive appointment scheduling, and one-tap medication logging make the app practical for users with busy lifestyles.</li>
+                <li><strong>Validated by Usability Testing:</strong> The feedback-driven improvements enhanced the <strong>overall user experience, making the app more effective and user-friendly</strong>.</li>
+            </ul>
+        </div>
+    
+        <div class="subsection">
+            <h3>Final Thoughts</h3>
+            <p>
+                The UX design process emphasized the importance of <strong>designing for real users</strong> rather than assumptions. Conducting thorough user research, creating detailed personas, and implementing usability testing allowed for meaningful insights that shaped the final prototype.
+            </p>
+            <p>
+                By focusing on user needs, the <strong>Health Companion Super App</strong> evolved from a basic concept into a functional, accessible, and user-friendly solution that effectively supports individuals managing chronic health conditions. This project reinforces the value of an iterative approach, where each design phase contributes to a more refined and effective user experience.
+            </p>
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>Created by Baraa Chrit | Hosted on <a href="https://github.com" target="_blank">GitHub Pages</a></p>
+    </footer>
+
+</body>
+</html>

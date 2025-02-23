@@ -1,0 +1,492 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background: #2c3e50;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #f4f4f4;
+    border-radius: 8px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+.persona {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #2c3e50;
+    color: white;
+}
+
+
+/* Introduction Section */
+#introduction {
+    padding: 30px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#introduction h2 {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.subsection {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.subsection h3 {
+    color: #3498db;
+    font-size: 22px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 5px;
+}
+
+.subsection p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.subsection ul {
+    padding-left: 20px;
+}
+
+.subsection ul li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.subsection ul li strong {
+    color: #2c3e50;
+}
+
+@media (max-width: 768px) {
+    #introduction {
+        padding: 20px;
+    }
+
+    .subsection {
+        padding: 15px;
+    }
+}
+/* User Research Section */
+#user-research {
+    padding: 30px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#user-research h2 {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.subsection {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.subsection h3 {
+    color: #3498db;
+    font-size: 22px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 5px;
+}
+
+.subsection p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.subsection ul {
+    padding-left: 20px;
+}
+
+.subsection ul li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.subsection ul li strong {
+    color: #2c3e50;
+}
+
+@media (max-width: 768px) {
+    #user-research {
+        padding: 20px;
+    }
+
+    .subsection {
+        padding: 15px;
+    }
+}
+
+
+/* User Journey Section */
+#user-journey {
+    padding: 30px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#user-journey h2 {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.subsection {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.subsection h3 {
+    color: #3498db;
+    font-size: 22px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 5px;
+}
+
+.subsection p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background: #2c3e50;
+    color: white;
+    font-weight: bold;
+}
+
+td {
+    background: #f9f9f9;
+}
+
+/* Responsive Table */
+@media (max-width: 768px) {
+    table, th, td {
+        display: block;
+        width: 100%;
+    }
+
+    th {
+        text-align: left;
+    }
+
+    td {
+        text-align: left;
+        border-top: none;
+    }
+}
+
+/* Wireframing Section */
+#wireframing {
+    padding: 30px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#wireframing h2 {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.subsection {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.subsection h3 {
+    color: #3498db;
+    font-size: 22px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 5px;
+}
+
+.subsection p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.subsection ul {
+    padding-left: 20px;
+}
+
+.subsection ul li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.subsection ul li strong {
+    color: #2c3e50;
+}
+
+/* Image Styling */
+.subsection img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Figma Prototype Button */
+.button-link {
+    display: inline-block;
+    background: #3498db;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.button-link:hover {
+    background: #2c3e50;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #wireframing {
+        padding: 20px;
+    }
+
+    .subsection {
+        padding: 15px;
+    }
+}
+
+/* Usability Testing Section */
+#usability-testing {
+    padding: 30px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#usability-testing h2 {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.subsection {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.subsection h3 {
+    color: #3498db;
+    font-size: 22px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 5px;
+}
+
+.subsection p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.subsection ul {
+    padding-left: 20px;
+}
+
+.subsection ul li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.subsection ul li strong {
+    color: #2c3e50;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #usability-testing {
+        padding: 20px;
+    }
+
+    .subsection {
+        padding: 15px;
+    }
+}
+/* Reflection Section */
+#reflection {
+    padding: 30px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#reflection h2 {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.subsection {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.subsection h3 {
+    color: #3498db;
+    font-size: 22px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 5px;
+}
+
+.subsection p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.subsection ul {
+    padding-left: 20px;
+}
+
+.subsection ul li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.subsection ul li strong {
+    color: #2c3e50;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #reflection {
+        padding: 20px;
+    }
+
+    .subsection {
+        padding: 15px;
+    }
+}
+.wireframe-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.wireframe-container img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.caption {
+    font-size: 16px;
+    color: #555;
+    margin-top: 5px;
+}
